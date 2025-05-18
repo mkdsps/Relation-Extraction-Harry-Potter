@@ -13,6 +13,7 @@ Input:
 "Magix is using broom to fly, to his house Gryffindor."
 
 Output:
+```json
 {
   "tokens": ["Magix", "is", "using", "broom", "to", "fly,", "to", "his", "house", "Gryffindor."],
   "entities": [
@@ -25,6 +26,7 @@ Output:
     { "type": "member-of-house", "head": 1, "tail": 3 }
   ]
 }
+```
 (+ opcioni prikaz kao graf pomoću `networkx`)
 
 
