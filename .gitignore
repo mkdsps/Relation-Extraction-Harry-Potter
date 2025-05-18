@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+venv/
+.env
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.safetensors
+
+# API ključevi
+openai_key.txt
+*.token
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Custom folders to ignore
+json_files/
+data/

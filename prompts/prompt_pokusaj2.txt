@@ -1,0 +1,127 @@
+Anotiraj sledeće tokenizovane pasuse iz knjige Harry Potter.
+
+Tvoj zadatak je da za svaki pasus:
+
+Izvučeš entitete i označiš njihov tip.
+
+Ekstraktuješ eksplicitno naznačene relacije između entiteta.
+
+✅ Dozvoljeni tipovi entiteta:
+CHARACTER: Likovi (Harry, Hermione, Dumbledore...)
+
+HOUSE: Hogwarts kuće (Gryffindor, Slytherin...)
+
+MAGIC_ITEM: Magični predmeti (wand, broomstick, invisibility cloak...)
+
+SPELL: Čarolije (Expelliarmus, Expecto Patronum...)
+
+LOCATION: Lokacije (Hogwarts, Forbidden Forest, Room of Requirement...)
+
+✅ Dozvoljeni tipovi relacija:
+CHARACTER–CHARACTER:
+
+friend-of, enemy-of, mentor-of, student-of, parent-of, sibling-of, rival-of, ally-of
+
+CHARACTER–HOUSE:
+
+member-of-house, founder-of-house
+
+CHARACTER–MAGIC_ITEM:
+
+uses, owns, acquires, gives, given_to
+
+CHARACTER–SPELL:
+
+casts, knows, teaches
+
+CHARACTER–LOCATION:
+
+located_in
+
+🧩 Pravila:
+Pasusi su unapred tokenizovani — koristi ih bez dodatne obrade.
+
+token_start i token_end označavaju indekse tokena (0-based, uključivo).
+
+Svaki entitet mora imati jedinstven "id" unutar pasusa.
+
+Relacije treba da koriste head_id i tail_id koji odgovaraju entitetima.
+
+Ne izmišljaj entitete ili relacije koji nisu jasno prisutni u tekstu.
+
+Ako nema nijedne relacije ili entiteta, ostavi praznu listu.
+
+Ako pasus ne sadrži dovoljno podataka za identifikaciju relacija, nemoj ih vraćati.
+
+Vrati rezultat kao JSON sa jednim zapisom po pasusu.
+
+📦 Output format (po pasusu):
+json
+Copy
+Edit
+{
+  "id": <PASUS_ID>,
+  "tokens": [["..."]],
+  "entities": [
+    {"id": <int>, "text": "<tekst entiteta>", "type": "<tip>", "token_start": <int>, "token_end": <int>}
+    ...
+  ],
+  "relations": [
+    {"type": "<relacija>", "head_id": <id_entiteta>, "tail_id": <id_entiteta>}
+    ...
+  ]
+}
+🔽 Primer inputa:
+json
+Copy
+Edit
+[
+  {
+    "id": 1,
+    "tokens": [["Harry", "gave", "the", "Invisibility", "Cloak", "to", "Neville", "in", "the", "Room", "of", "Requirement", "."]]
+  },
+  {
+    "id": 2,
+    "tokens": [["Hermione", "was", "proud", "to", "be", "in", "Gryffindor", "."]]
+  }
+]
+✨ Primer outputa:
+json
+Copy
+Edit
+[
+  {
+    "id": 1,
+    "tokens": [["Harry", "gave", "the", "Invisibility", "Cloak", "to", "Neville", "in", "the", "Room", "of", "Requirement", "."]],
+    "entities": [
+      {"id": 1, "text": "Harry", "type": "CHARACTER", "token_start": 0, "token_end": 0},
+      {"id": 2, "text": "Invisibility Cloak", "type": "MAGIC_ITEM", "token_start": 3, "token_end": 4},
+      {"id": 3, "text": "Neville", "type": "CHARACTER", "token_start": 6, "token_end": 6},
+      {"id": 4, "text": "Room of Requirement", "type": "LOCATION", "token_start": 9, "token_end": 11}
+    ],
+    "relations": [
+      {"type": "gives", "head_id": 1, "tail_id": 2},
+      {"type": "given_to", "head_id": 2, "tail_id": 3},
+      {"type": "located_in", "head_id": 3, "tail_id": 4}
+    ]
+  },
+  {
+    "id": 2,
+    "tokens": [["Hermione", "was", "proud", "to", "be", "in", "Gryffindor", "."]],
+    "entities": [
+      {"id": 1, "text": "Hermione", "type": "CHARACTER", "token_start": 0, "token_end": 0},
+      {"id": 2, "text": "Gryffindor", "type": "HOUSE", "token_start": 6, "token_end": 6}
+    ],
+    "relations": [
+      {"type": "member-of-house", "head_id": 1, "tail_id": 2}
+    ]
+  }
+]
+🧑‍💻 Napomene:
+Zadati format mora biti striktno po strukturi koju smo postavili (entiteti i relacije).
+
+Ako je pasus prekratak ili ne sadrži dovoljno informacija za relaciju, samo vrati praznu listu za relations.
+
+Ako entitet nije eksplicitno pomenut, nemoj ga uključiti.
+
+id mora biti jedinstven za svaki entitet u svakom pasusu, ali možeš imati iste id za entitete u različitim pasusima.

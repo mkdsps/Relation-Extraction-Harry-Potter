@@ -1,0 +1,124 @@
+## Annotate the following tokenized paragraphs from the Harry Potter book series.
+
+### Task Overview:
+You will annotate tokenized paragraphs with:
+1. **Entities**: Identify all explicitly mentioned entities and assign them one of the allowed types.
+2. **Relations**: Extract only the **explicitly stated or unambiguously implied** relations between entities.
+
+**Do not infer or invent entities or relations not clearly supported by the text.**
+
+### Allowed Entity Types (label all occurrences):
+CHARACTER: Characters (Harry, Hermione, Dumbledore...)
+HOUSE: Hogwarts houses (Gryffindor, Slytherin...)
+MAGIC_ITEM: Magical items (wand, broomstick, invisibility cloak...) — label all **all magical objects**
+SPELL: Spells (Expelliarmus, Expecto Patronum...)
+LOCATION: Locations (Hogwarts, Forbidden Forest, Room of Requirement...)
+
+### Allowed Relation Types:
+**Between CHARACTER–CHARACTER:**
+  - friend-of, enemy-of, mentor-of, student-of, parent-of, sibling-of, rival-of, ally-of
+
+**Between CHARACTER–HOUSE:**
+  - member-of-house, founder-of-house
+
+**Between CHARACTER–MAGIC_ITEM:**
+  - uses, owns, acquires, gives, given_to
+
+**Between CHARACTER–SPELL:**
+  - casts, knows, teaches
+
+**Between CHARACTER–LOCATION:**
+  - located_in
+
+### Annotation Rules:
+
+#### Entity Annotation:
+- Tokens are given as `[wordpiece, index]`.
+- `token_start` and `token_end` are **inclusive**, and must match the entity span exactly.
+- **If an entity appears more than once, annotate each occurrence separately**.
+- Include all subword tokens (e.g., `"##mio"` is part of "Hermione").
+
+#### Relation Annotation:
+- Only annotate **explicit or clearly implied** relations based on speech, actions, or descriptions.
+- Use only the **exact** relation types listed above.
+- **Symmetric relations** (like `enemy-of`) must be annotated in **both directions**.
+- **Asymmetric relations** (like `gives`) should be annotated **only in the stated direction**.
+- If no relations are present, return `"relations": []`.
+
+####  Important:
+- Incorrect or misaligned `token_start` / `token_end` values will corrupt the training pipeline.
+- Do **not** create entities or relations that are not directly grounded in the token list.
+- Always include `"annotation_confidence"`: a float between 0 and 1.
+
+### Examples:
+Input:
+{
+  "id": 1,
+  "text": "Harry gave Hermione his wand.",
+  "tokens": [["Harry", 0], ["gave", 1], ["Her", 2], ["##mio", 3], ["##ne", 4], ["his", 5], ["wa", 6], ["##nd", 7], [".", 8]]
+}
+Output:
+{
+  "id": 1,
+  "entities": [
+    {"id": 0, "text": "Harry", "type": "CHARACTER", "token_start": 0, "token_end": 0},
+    {"id": 1, "text": "Hermione", "type": "CHARACTER", "token_start": 2, "token_end": 4},
+    {"id": 2, "text": "wand", "type": "MAGIC_ITEM", "token_start": 6, "token_end": 7}
+  ],
+  "relations": [
+    {"type": "gives", "head_id": 0, "tail_id": 2},
+    {"type": "given_to", "head_id": 2, "tail_id": 1}
+  ],
+  "annotation_confidence": 0.989
+}
+
+Input:
+{
+  "id": 2,
+  "text": "Mark was the founder of Slytherin, and he knew Expelliarmus.",
+  "tokens": [["Mark", 0], ["was", 1], ["the", 2], ["founder", 3], ["of", 4], ["S", 5], ["##ly", 6], ["##ther", 7], ["##in", 8], [",", 9], ["and", 10], ["he", 11], ["knew", 12], ["Ex", 13], ["##pel", 14], ["##lia", 15], ["##rm", 16], ["##us", 17], [".", 18]]
+}
+
+Output:
+{
+  "id": 2,
+  "entities": [
+    {"id": 0, "text": "Mark", "type": "CHARACTER", "token_start": 0, "token_end": 0},
+    {"id": 1, "text": "Slytherin", "type": "HOUSE", "token_start": 5, "token_end": 8},
+    {"id": 2, "text": "Expelliarmus", "type": "SPELL", "token_start": 13, "token_end": 17}
+  ],
+  "relations": [
+    {"type": "founder-of-house", "head_id": 0, "tail_id": 1},
+    {"type": "knows", "head_id": 0, "tail_id": 2}
+  ],
+  "annotation_confidence": 0.99
+}
+
+Input:
+{
+  "id":123,
+  "text": ""Get off me!" Mark gasped, struggling as Uncle James attacked, his bitter foe unmistakable.",
+  "tokens": [['"', 0], ['Get', 1], ['off', 2], ['me', 3], ['!', 4], ['"', 5], ['Mark', 6], ['gasped', 7], [',', 8], ['struggling', 9], ['as', 10], ['Uncle', 11], ['James', 12], ['attacked', 13], [',', 14], ['his', 15], ['bitter', 16], ['foe', 17], ['unmistakable', 18], ['.', 19]]
+}
+
+Output:
+{
+  "id":123,
+  "entities": [
+    {"id": 0, "text": "Mark", "type": "CHARACTER", "token_start": 6, "token_end": 6},
+    {"id": 1, "text": "Uncle James", "type": "CHARACTER", "token_start": 11, "token_end": 12}
+  ],
+  "relations": [
+    {"type": "enemy-of", "head_id": 0, "tail_id": 1},
+    {"type": "enemy-of", "head_id": 1, "tail_id": 0},
+  ],
+  "annotation_confidence": 0.999
+}
+
+### 🚨 Final Notes:
+- Be thorough: **don’t miss** any valid entity or relation, even if subtly phrased.
+- Pay special attention to verbs and descriptions that hint at relationships.
+
+---
+
+### Now annotate these:

@@ -1,0 +1,2973 @@
+[
+  {
+    "id": 12194,
+    "text": "Harry's doubts vanished. Jumping to his feet he pulled off the Invisibility Cloak, stuffed it into his bag, grabbed the gillyweed, and put it into his pocket, then tore out of the library with Dobby at his heels. “Dobby is supposed to be in the kitchens, sir!” Dobby squealed as they burst into the corridor. “Dobby will be missed - good luck, Harry Potter, sir, good luck!”",
+    "annotation_confidence": 0.98,
+    "entities": [
+      {
+        "id": 0,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 0,
+        "token_end": 0,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "Invisibility Cloak",
+        "type": "MAGIC_ITEM",
+        "token_start": 15,
+        "token_end": 20,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "gillyweed",
+        "type": "MAGIC_ITEM",
+        "token_start": 30,
+        "token_end": 33,
+        "token_validity": true
+      },
+      {
+        "id": 3,
+        "text": "Dobby",
+        "type": "CHARACTER",
+        "token_start": 49,
+        "token_end": 50,
+        "token_validity": true
+      },
+      {
+        "id": 4,
+        "text": "Harry Potter",
+        "type": "CHARACTER",
+        "token_start": 92,
+        "token_end": 93,
+        "token_validity": true
+      }
+    ],
+    "relations": [
+      {
+        "type": "uses",
+        "head_id": 0,
+        "tail_id": 1
+      },
+      {
+        "type": "uses",
+        "head_id": 0,
+        "tail_id": 2
+      }
+    ],
+    "tokens": [
+      [
+        "Harry",
+        0
+      ],
+      [
+        "'",
+        1
+      ],
+      [
+        "s",
+        2
+      ],
+      [
+        "doubts",
+        3
+      ],
+      [
+        "vanished",
+        4
+      ],
+      [
+        ".",
+        5
+      ],
+      [
+        "Jump",
+        6
+      ],
+      [
+        "##ing",
+        7
+      ],
+      [
+        "to",
+        8
+      ],
+      [
+        "his",
+        9
+      ],
+      [
+        "feet",
+        10
+      ],
+      [
+        "he",
+        11
+      ],
+      [
+        "pulled",
+        12
+      ],
+      [
+        "off",
+        13
+      ],
+      [
+        "the",
+        14
+      ],
+      [
+        "In",
+        15
+      ],
+      [
+        "##vis",
+        16
+      ],
+      [
+        "##ibility",
+        17
+      ],
+      [
+        "C",
+        18
+      ],
+      [
+        "##lo",
+        19
+      ],
+      [
+        "##ak",
+        20
+      ],
+      [
+        ",",
+        21
+      ],
+      [
+        "stuffed",
+        22
+      ],
+      [
+        "it",
+        23
+      ],
+      [
+        "into",
+        24
+      ],
+      [
+        "his",
+        25
+      ],
+      [
+        "bag",
+        26
+      ],
+      [
+        ",",
+        27
+      ],
+      [
+        "grabbed",
+        28
+      ],
+      [
+        "the",
+        29
+      ],
+      [
+        "g",
+        30
+      ],
+      [
+        "##ill",
+        31
+      ],
+      [
+        "##y",
+        32
+      ],
+      [
+        "##weed",
+        33
+      ],
+      [
+        ",",
+        34
+      ],
+      [
+        "and",
+        35
+      ],
+      [
+        "put",
+        36
+      ],
+      [
+        "it",
+        37
+      ],
+      [
+        "into",
+        38
+      ],
+      [
+        "his",
+        39
+      ],
+      [
+        "pocket",
+        40
+      ],
+      [
+        ",",
+        41
+      ],
+      [
+        "then",
+        42
+      ],
+      [
+        "tore",
+        43
+      ],
+      [
+        "out",
+        44
+      ],
+      [
+        "of",
+        45
+      ],
+      [
+        "the",
+        46
+      ],
+      [
+        "library",
+        47
+      ],
+      [
+        "with",
+        48
+      ],
+      [
+        "Do",
+        49
+      ],
+      [
+        "##bby",
+        50
+      ],
+      [
+        "at",
+        51
+      ],
+      [
+        "his",
+        52
+      ],
+      [
+        "heels",
+        53
+      ],
+      [
+        ".",
+        54
+      ],
+      [
+        "“",
+        55
+      ],
+      [
+        "Do",
+        56
+      ],
+      [
+        "##bby",
+        57
+      ],
+      [
+        "is",
+        58
+      ],
+      [
+        "supposed",
+        59
+      ],
+      [
+        "to",
+        60
+      ],
+      [
+        "be",
+        61
+      ],
+      [
+        "in",
+        62
+      ],
+      [
+        "the",
+        63
+      ],
+      [
+        "kitchen",
+        64
+      ],
+      [
+        "##s",
+        65
+      ],
+      [
+        ",",
+        66
+      ],
+      [
+        "sir",
+        67
+      ],
+      [
+        "!",
+        68
+      ],
+      [
+        "”",
+        69
+      ],
+      [
+        "Do",
+        70
+      ],
+      [
+        "##bby",
+        71
+      ],
+      [
+        "sq",
+        72
+      ],
+      [
+        "##ue",
+        73
+      ],
+      [
+        "##aled",
+        74
+      ],
+      [
+        "as",
+        75
+      ],
+      [
+        "they",
+        76
+      ],
+      [
+        "burst",
+        77
+      ],
+      [
+        "into",
+        78
+      ],
+      [
+        "the",
+        79
+      ],
+      [
+        "corridor",
+        80
+      ],
+      [
+        ".",
+        81
+      ],
+      [
+        "“",
+        82
+      ],
+      [
+        "Do",
+        83
+      ],
+      [
+        "##bby",
+        84
+      ],
+      [
+        "will",
+        85
+      ],
+      [
+        "be",
+        86
+      ],
+      [
+        "missed",
+        87
+      ],
+      [
+        "-",
+        88
+      ],
+      [
+        "good",
+        89
+      ],
+      [
+        "luck",
+        90
+      ],
+      [
+        ",",
+        91
+      ],
+      [
+        "Harry",
+        92
+      ],
+      [
+        "Potter",
+        93
+      ],
+      [
+        ",",
+        94
+      ],
+      [
+        "sir",
+        95
+      ],
+      [
+        ",",
+        96
+      ],
+      [
+        "good",
+        97
+      ],
+      [
+        "luck",
+        98
+      ],
+      [
+        "!",
+        99
+      ],
+      [
+        "”",
+        100
+      ]
+    ],
+    "num_entities": 5,
+    "num_relations": 2,
+    "token_validity": true
+  },
+  {
+    "id": 7049,
+    "text": "They argued all the way back to the common room, but Harry was not listening to them. He had one eye on the Marauder's Map, but he was also thinking of Cho saying he made her nervous.",
+    "annotation_confidence": 0.98,
+    "entities": [
+      {
+        "id": 0,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 12,
+        "token_end": 12,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "Marauder's Map",
+        "type": "MAGIC_ITEM",
+        "token_start": 25,
+        "token_end": 30,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "Cho",
+        "type": "CHARACTER",
+        "token_start": 38,
+        "token_end": 38,
+        "token_validity": true
+      }
+    ],
+    "relations": [
+      {
+        "type": "uses",
+        "head_id": 0,
+        "tail_id": 1
+      }
+    ],
+    "tokens": [
+      [
+        "They",
+        0
+      ],
+      [
+        "argued",
+        1
+      ],
+      [
+        "all",
+        2
+      ],
+      [
+        "the",
+        3
+      ],
+      [
+        "way",
+        4
+      ],
+      [
+        "back",
+        5
+      ],
+      [
+        "to",
+        6
+      ],
+      [
+        "the",
+        7
+      ],
+      [
+        "common",
+        8
+      ],
+      [
+        "room",
+        9
+      ],
+      [
+        ",",
+        10
+      ],
+      [
+        "but",
+        11
+      ],
+      [
+        "Harry",
+        12
+      ],
+      [
+        "was",
+        13
+      ],
+      [
+        "not",
+        14
+      ],
+      [
+        "listening",
+        15
+      ],
+      [
+        "to",
+        16
+      ],
+      [
+        "them",
+        17
+      ],
+      [
+        ".",
+        18
+      ],
+      [
+        "He",
+        19
+      ],
+      [
+        "had",
+        20
+      ],
+      [
+        "one",
+        21
+      ],
+      [
+        "eye",
+        22
+      ],
+      [
+        "on",
+        23
+      ],
+      [
+        "the",
+        24
+      ],
+      [
+        "Mara",
+        25
+      ],
+      [
+        "##ude",
+        26
+      ],
+      [
+        "##r",
+        27
+      ],
+      [
+        "'",
+        28
+      ],
+      [
+        "s",
+        29
+      ],
+      [
+        "Map",
+        30
+      ],
+      [
+        ",",
+        31
+      ],
+      [
+        "but",
+        32
+      ],
+      [
+        "he",
+        33
+      ],
+      [
+        "was",
+        34
+      ],
+      [
+        "also",
+        35
+      ],
+      [
+        "thinking",
+        36
+      ],
+      [
+        "of",
+        37
+      ],
+      [
+        "Cho",
+        38
+      ],
+      [
+        "saying",
+        39
+      ],
+      [
+        "he",
+        40
+      ],
+      [
+        "made",
+        41
+      ],
+      [
+        "her",
+        42
+      ],
+      [
+        "nervous",
+        43
+      ],
+      [
+        ".",
+        44
+      ]
+    ],
+    "num_entities": 3,
+    "num_relations": 1,
+    "token_validity": true
+  },
+  {
+    "id": 6197,
+    "text": "'But I was telling the truth!' said Harry, outraged. 'Voldemort is back, you know he is; Professor Dumbledore knows he is -'",
+    "annotation_confidence": 0.98,
+    "entities": [
+      {
+        "id": 0,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 10,
+        "token_end": 10,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "Volde",
+        "type": "CHARACTER",
+        "token_start": 16,
+        "token_end": 17,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "Professor Dumbledore",
+        "type": "CHARACTER",
+        "token_start": 28,
+        "token_end": 32,
+        "token_validity": true
+      }
+    ],
+    "relations": [
+      {
+        "type": "knows",
+        "head_id": 2,
+        "tail_id": 1
+      }
+    ],
+    "tokens": [
+      [
+        "'",
+        0
+      ],
+      [
+        "But",
+        1
+      ],
+      [
+        "I",
+        2
+      ],
+      [
+        "was",
+        3
+      ],
+      [
+        "telling",
+        4
+      ],
+      [
+        "the",
+        5
+      ],
+      [
+        "truth",
+        6
+      ],
+      [
+        "!",
+        7
+      ],
+      [
+        "'",
+        8
+      ],
+      [
+        "said",
+        9
+      ],
+      [
+        "Harry",
+        10
+      ],
+      [
+        ",",
+        11
+      ],
+      [
+        "outrage",
+        12
+      ],
+      [
+        "##d",
+        13
+      ],
+      [
+        ".",
+        14
+      ],
+      [
+        "'",
+        15
+      ],
+      [
+        "Vol",
+        16
+      ],
+      [
+        "##de",
+        17
+      ],
+      [
+        "##mor",
+        18
+      ],
+      [
+        "##t",
+        19
+      ],
+      [
+        "is",
+        20
+      ],
+      [
+        "back",
+        21
+      ],
+      [
+        ",",
+        22
+      ],
+      [
+        "you",
+        23
+      ],
+      [
+        "know",
+        24
+      ],
+      [
+        "he",
+        25
+      ],
+      [
+        "is",
+        26
+      ],
+      [
+        ";",
+        27
+      ],
+      [
+        "Professor",
+        28
+      ],
+      [
+        "Du",
+        29
+      ],
+      [
+        "##mble",
+        30
+      ],
+      [
+        "##dor",
+        31
+      ],
+      [
+        "##e",
+        32
+      ],
+      [
+        "knows",
+        33
+      ],
+      [
+        "he",
+        34
+      ],
+      [
+        "is",
+        35
+      ],
+      [
+        "-",
+        36
+      ],
+      [
+        "'",
+        37
+      ]
+    ],
+    "num_entities": 3,
+    "num_relations": 1,
+    "token_validity": true
+  },
+  {
+    "id": 15615,
+    "text": "“But why don’t you leave? Escape?” “A house-elf must be set free, sir. And the family will never set Dobby free…Dobby will serve the family until he dies, sir.…” Harry stared. “And I thought I had it bad staying here for another four weeks,” he said. “This makes the Dursleys sound almost human. Can’t anyone help you? Can’t I?”",
+    "annotation_confidence": 0.98,
+    "entities": [
+      {
+        "id": 0,
+        "text": "house-elf",
+        "type": "CHARACTER",
+        "token_start": 14,
+        "token_end": 17,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "Dobby",
+        "type": "CHARACTER",
+        "token_start": 31,
+        "token_end": 32,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "Dobby",
+        "type": "CHARACTER",
+        "token_start": 35,
+        "token_end": 36,
+        "token_validity": true
+      },
+      {
+        "id": 3,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 49,
+        "token_end": 49,
+        "token_validity": true
+      },
+      {
+        "id": 4,
+        "text": "Dursleys",
+        "type": "CHARACTER",
+        "token_start": 75,
+        "token_end": 78,
+        "token_validity": true
+      }
+    ],
+    "relations": [],
+    "tokens": [
+      [
+        "“",
+        0
+      ],
+      [
+        "But",
+        1
+      ],
+      [
+        "why",
+        2
+      ],
+      [
+        "don",
+        3
+      ],
+      [
+        "’",
+        4
+      ],
+      [
+        "t",
+        5
+      ],
+      [
+        "you",
+        6
+      ],
+      [
+        "leave",
+        7
+      ],
+      [
+        "?",
+        8
+      ],
+      [
+        "Escape",
+        9
+      ],
+      [
+        "?",
+        10
+      ],
+      [
+        "”",
+        11
+      ],
+      [
+        "“",
+        12
+      ],
+      [
+        "A",
+        13
+      ],
+      [
+        "house",
+        14
+      ],
+      [
+        "-",
+        15
+      ],
+      [
+        "el",
+        16
+      ],
+      [
+        "##f",
+        17
+      ],
+      [
+        "must",
+        18
+      ],
+      [
+        "be",
+        19
+      ],
+      [
+        "set",
+        20
+      ],
+      [
+        "free",
+        21
+      ],
+      [
+        ",",
+        22
+      ],
+      [
+        "sir",
+        23
+      ],
+      [
+        ".",
+        24
+      ],
+      [
+        "And",
+        25
+      ],
+      [
+        "the",
+        26
+      ],
+      [
+        "family",
+        27
+      ],
+      [
+        "will",
+        28
+      ],
+      [
+        "never",
+        29
+      ],
+      [
+        "set",
+        30
+      ],
+      [
+        "Do",
+        31
+      ],
+      [
+        "##bby",
+        32
+      ],
+      [
+        "free",
+        33
+      ],
+      [
+        "…",
+        34
+      ],
+      [
+        "Do",
+        35
+      ],
+      [
+        "##bby",
+        36
+      ],
+      [
+        "will",
+        37
+      ],
+      [
+        "serve",
+        38
+      ],
+      [
+        "the",
+        39
+      ],
+      [
+        "family",
+        40
+      ],
+      [
+        "until",
+        41
+      ],
+      [
+        "he",
+        42
+      ],
+      [
+        "dies",
+        43
+      ],
+      [
+        ",",
+        44
+      ],
+      [
+        "sir",
+        45
+      ],
+      [
+        ".",
+        46
+      ],
+      [
+        "…",
+        47
+      ],
+      [
+        "”",
+        48
+      ],
+      [
+        "Harry",
+        49
+      ],
+      [
+        "stared",
+        50
+      ],
+      [
+        ".",
+        51
+      ],
+      [
+        "“",
+        52
+      ],
+      [
+        "And",
+        53
+      ],
+      [
+        "I",
+        54
+      ],
+      [
+        "thought",
+        55
+      ],
+      [
+        "I",
+        56
+      ],
+      [
+        "had",
+        57
+      ],
+      [
+        "it",
+        58
+      ],
+      [
+        "bad",
+        59
+      ],
+      [
+        "staying",
+        60
+      ],
+      [
+        "here",
+        61
+      ],
+      [
+        "for",
+        62
+      ],
+      [
+        "another",
+        63
+      ],
+      [
+        "four",
+        64
+      ],
+      [
+        "weeks",
+        65
+      ],
+      [
+        ",",
+        66
+      ],
+      [
+        "”",
+        67
+      ],
+      [
+        "he",
+        68
+      ],
+      [
+        "said",
+        69
+      ],
+      [
+        ".",
+        70
+      ],
+      [
+        "“",
+        71
+      ],
+      [
+        "This",
+        72
+      ],
+      [
+        "makes",
+        73
+      ],
+      [
+        "the",
+        74
+      ],
+      [
+        "Du",
+        75
+      ],
+      [
+        "##rs",
+        76
+      ],
+      [
+        "##ley",
+        77
+      ],
+      [
+        "##s",
+        78
+      ],
+      [
+        "sound",
+        79
+      ],
+      [
+        "almost",
+        80
+      ],
+      [
+        "human",
+        81
+      ],
+      [
+        ".",
+        82
+      ],
+      [
+        "Can",
+        83
+      ],
+      [
+        "’",
+        84
+      ],
+      [
+        "t",
+        85
+      ],
+      [
+        "anyone",
+        86
+      ],
+      [
+        "help",
+        87
+      ],
+      [
+        "you",
+        88
+      ],
+      [
+        "?",
+        89
+      ],
+      [
+        "Can",
+        90
+      ],
+      [
+        "’",
+        91
+      ],
+      [
+        "t",
+        92
+      ],
+      [
+        "I",
+        93
+      ],
+      [
+        "?",
+        94
+      ],
+      [
+        "”",
+        95
+      ]
+    ],
+    "num_entities": 5,
+    "num_relations": 0,
+    "token_validity": true
+  },
+  {
+    "id": 14666,
+    "text": "They walked out onto the pitch to tumultuous applause. The Ravenclaw team, dressed in blue, were already standing in the middle of the pitch. Their Seeker, Cho Chang, was the only girl in their team. She was shorter than Harry by about a head, and Harry couldn’t help noticing, nervous as he was, that she was extremely pretty. She smiled at Harry as the teams faced each other behind their captains, and he felt a slight jolt in the region of his stomach that he didn’t think had anything to do with nerves.",
+    "annotation_confidence": 0.98,
+    "entities": [
+      {
+        "id": 0,
+        "text": "Ravenclaw",
+        "type": "HOUSE",
+        "token_start": 14,
+        "token_end": 16,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "Cho Chang",
+        "type": "CHARACTER",
+        "token_start": 37,
+        "token_end": 38,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 52,
+        "token_end": 52,
+        "token_validity": true
+      },
+      {
+        "id": 3,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 59,
+        "token_end": 59,
+        "token_validity": true
+      },
+      {
+        "id": 4,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 80,
+        "token_end": 80,
+        "token_validity": true
+      }
+    ],
+    "relations": [
+      {
+        "type": "member-of-house",
+        "head_id": 1,
+        "tail_id": 0
+      }
+    ],
+    "tokens": [
+      [
+        "They",
+        0
+      ],
+      [
+        "walked",
+        1
+      ],
+      [
+        "out",
+        2
+      ],
+      [
+        "onto",
+        3
+      ],
+      [
+        "the",
+        4
+      ],
+      [
+        "pitch",
+        5
+      ],
+      [
+        "to",
+        6
+      ],
+      [
+        "t",
+        7
+      ],
+      [
+        "##um",
+        8
+      ],
+      [
+        "##ult",
+        9
+      ],
+      [
+        "##uous",
+        10
+      ],
+      [
+        "applause",
+        11
+      ],
+      [
+        ".",
+        12
+      ],
+      [
+        "The",
+        13
+      ],
+      [
+        "Raven",
+        14
+      ],
+      [
+        "##c",
+        15
+      ],
+      [
+        "##law",
+        16
+      ],
+      [
+        "team",
+        17
+      ],
+      [
+        ",",
+        18
+      ],
+      [
+        "dressed",
+        19
+      ],
+      [
+        "in",
+        20
+      ],
+      [
+        "blue",
+        21
+      ],
+      [
+        ",",
+        22
+      ],
+      [
+        "were",
+        23
+      ],
+      [
+        "already",
+        24
+      ],
+      [
+        "standing",
+        25
+      ],
+      [
+        "in",
+        26
+      ],
+      [
+        "the",
+        27
+      ],
+      [
+        "middle",
+        28
+      ],
+      [
+        "of",
+        29
+      ],
+      [
+        "the",
+        30
+      ],
+      [
+        "pitch",
+        31
+      ],
+      [
+        ".",
+        32
+      ],
+      [
+        "Their",
+        33
+      ],
+      [
+        "See",
+        34
+      ],
+      [
+        "##ker",
+        35
+      ],
+      [
+        ",",
+        36
+      ],
+      [
+        "Cho",
+        37
+      ],
+      [
+        "Chang",
+        38
+      ],
+      [
+        ",",
+        39
+      ],
+      [
+        "was",
+        40
+      ],
+      [
+        "the",
+        41
+      ],
+      [
+        "only",
+        42
+      ],
+      [
+        "girl",
+        43
+      ],
+      [
+        "in",
+        44
+      ],
+      [
+        "their",
+        45
+      ],
+      [
+        "team",
+        46
+      ],
+      [
+        ".",
+        47
+      ],
+      [
+        "She",
+        48
+      ],
+      [
+        "was",
+        49
+      ],
+      [
+        "shorter",
+        50
+      ],
+      [
+        "than",
+        51
+      ],
+      [
+        "Harry",
+        52
+      ],
+      [
+        "by",
+        53
+      ],
+      [
+        "about",
+        54
+      ],
+      [
+        "a",
+        55
+      ],
+      [
+        "head",
+        56
+      ],
+      [
+        ",",
+        57
+      ],
+      [
+        "and",
+        58
+      ],
+      [
+        "Harry",
+        59
+      ],
+      [
+        "couldn",
+        60
+      ],
+      [
+        "’",
+        61
+      ],
+      [
+        "t",
+        62
+      ],
+      [
+        "help",
+        63
+      ],
+      [
+        "noticing",
+        64
+      ],
+      [
+        ",",
+        65
+      ],
+      [
+        "nervous",
+        66
+      ],
+      [
+        "as",
+        67
+      ],
+      [
+        "he",
+        68
+      ],
+      [
+        "was",
+        69
+      ],
+      [
+        ",",
+        70
+      ],
+      [
+        "that",
+        71
+      ],
+      [
+        "she",
+        72
+      ],
+      [
+        "was",
+        73
+      ],
+      [
+        "extremely",
+        74
+      ],
+      [
+        "pretty",
+        75
+      ],
+      [
+        ".",
+        76
+      ],
+      [
+        "She",
+        77
+      ],
+      [
+        "smiled",
+        78
+      ],
+      [
+        "at",
+        79
+      ],
+      [
+        "Harry",
+        80
+      ],
+      [
+        "as",
+        81
+      ],
+      [
+        "the",
+        82
+      ],
+      [
+        "teams",
+        83
+      ],
+      [
+        "faced",
+        84
+      ],
+      [
+        "each",
+        85
+      ],
+      [
+        "other",
+        86
+      ],
+      [
+        "behind",
+        87
+      ],
+      [
+        "their",
+        88
+      ],
+      [
+        "captains",
+        89
+      ],
+      [
+        ",",
+        90
+      ],
+      [
+        "and",
+        91
+      ],
+      [
+        "he",
+        92
+      ],
+      [
+        "felt",
+        93
+      ],
+      [
+        "a",
+        94
+      ],
+      [
+        "slight",
+        95
+      ],
+      [
+        "jolt",
+        96
+      ],
+      [
+        "in",
+        97
+      ],
+      [
+        "the",
+        98
+      ],
+      [
+        "region",
+        99
+      ],
+      [
+        "of",
+        100
+      ],
+      [
+        "his",
+        101
+      ],
+      [
+        "stomach",
+        102
+      ],
+      [
+        "that",
+        103
+      ],
+      [
+        "he",
+        104
+      ],
+      [
+        "didn",
+        105
+      ],
+      [
+        "’",
+        106
+      ],
+      [
+        "t",
+        107
+      ],
+      [
+        "think",
+        108
+      ],
+      [
+        "had",
+        109
+      ],
+      [
+        "anything",
+        110
+      ],
+      [
+        "to",
+        111
+      ],
+      [
+        "do",
+        112
+      ],
+      [
+        "with",
+        113
+      ],
+      [
+        "nerves",
+        114
+      ],
+      [
+        ".",
+        115
+      ]
+    ],
+    "num_entities": 5,
+    "num_relations": 1,
+    "token_validity": true
+  },
+  {
+    "id": 8021,
+    "text": "Neville left his sentence hanging and returned to his baked potato. Seamus looked up, but when he caught Harrys eye he looked quickly back at his plate again. After a while, Dean, Seamus and Neville departed for the common room, leaving Harry and Hermione at the table waiting for Ron, who had not yet had dinner because of Quidditch practice.",
+    "annotation_confidence": 0.99,
+    "entities": [
+      {
+        "id": 0,
+        "text": "Neville",
+        "type": "CHARACTER",
+        "token_start": 0,
+        "token_end": 0,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "Seamus",
+        "type": "CHARACTER",
+        "token_start": 12,
+        "token_end": 13,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 21,
+        "token_end": 21,
+        "token_validity": true
+      },
+      {
+        "id": 3,
+        "text": "Dean",
+        "type": "CHARACTER",
+        "token_start": 37,
+        "token_end": 37,
+        "token_validity": true
+      },
+      {
+        "id": 4,
+        "text": "Seamus",
+        "type": "CHARACTER",
+        "token_start": 39,
+        "token_end": 40,
+        "token_validity": true
+      },
+      {
+        "id": 5,
+        "text": "Neville",
+        "type": "CHARACTER",
+        "token_start": 42,
+        "token_end": 42,
+        "token_validity": true
+      },
+      {
+        "id": 6,
+        "text": "common room",
+        "type": "LOCATION",
+        "token_start": 46,
+        "token_end": 47,
+        "token_validity": true
+      },
+      {
+        "id": 7,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 50,
+        "token_end": 50,
+        "token_validity": true
+      },
+      {
+        "id": 8,
+        "text": "Hermione",
+        "type": "CHARACTER",
+        "token_start": 52,
+        "token_end": 54,
+        "token_validity": true
+      },
+      {
+        "id": 9,
+        "text": "Ron",
+        "type": "CHARACTER",
+        "token_start": 60,
+        "token_end": 60,
+        "token_validity": true
+      },
+      {
+        "id": 10,
+        "text": "Quidditch practice",
+        "type": "LOCATION",
+        "token_start": 70,
+        "token_end": 74,
+        "token_validity": true
+      }
+    ],
+    "relations": [],
+    "tokens": [
+      [
+        "Neville",
+        0
+      ],
+      [
+        "left",
+        1
+      ],
+      [
+        "his",
+        2
+      ],
+      [
+        "sentence",
+        3
+      ],
+      [
+        "hanging",
+        4
+      ],
+      [
+        "and",
+        5
+      ],
+      [
+        "returned",
+        6
+      ],
+      [
+        "to",
+        7
+      ],
+      [
+        "his",
+        8
+      ],
+      [
+        "baked",
+        9
+      ],
+      [
+        "potato",
+        10
+      ],
+      [
+        ".",
+        11
+      ],
+      [
+        "Sea",
+        12
+      ],
+      [
+        "##mus",
+        13
+      ],
+      [
+        "looked",
+        14
+      ],
+      [
+        "up",
+        15
+      ],
+      [
+        ",",
+        16
+      ],
+      [
+        "but",
+        17
+      ],
+      [
+        "when",
+        18
+      ],
+      [
+        "he",
+        19
+      ],
+      [
+        "caught",
+        20
+      ],
+      [
+        "Harry",
+        21
+      ],
+      [
+        "##s",
+        22
+      ],
+      [
+        "eye",
+        23
+      ],
+      [
+        "he",
+        24
+      ],
+      [
+        "looked",
+        25
+      ],
+      [
+        "quickly",
+        26
+      ],
+      [
+        "back",
+        27
+      ],
+      [
+        "at",
+        28
+      ],
+      [
+        "his",
+        29
+      ],
+      [
+        "plate",
+        30
+      ],
+      [
+        "again",
+        31
+      ],
+      [
+        ".",
+        32
+      ],
+      [
+        "After",
+        33
+      ],
+      [
+        "a",
+        34
+      ],
+      [
+        "while",
+        35
+      ],
+      [
+        ",",
+        36
+      ],
+      [
+        "Dean",
+        37
+      ],
+      [
+        ",",
+        38
+      ],
+      [
+        "Sea",
+        39
+      ],
+      [
+        "##mus",
+        40
+      ],
+      [
+        "and",
+        41
+      ],
+      [
+        "Neville",
+        42
+      ],
+      [
+        "departed",
+        43
+      ],
+      [
+        "for",
+        44
+      ],
+      [
+        "the",
+        45
+      ],
+      [
+        "common",
+        46
+      ],
+      [
+        "room",
+        47
+      ],
+      [
+        ",",
+        48
+      ],
+      [
+        "leaving",
+        49
+      ],
+      [
+        "Harry",
+        50
+      ],
+      [
+        "and",
+        51
+      ],
+      [
+        "Her",
+        52
+      ],
+      [
+        "##mio",
+        53
+      ],
+      [
+        "##ne",
+        54
+      ],
+      [
+        "at",
+        55
+      ],
+      [
+        "the",
+        56
+      ],
+      [
+        "table",
+        57
+      ],
+      [
+        "waiting",
+        58
+      ],
+      [
+        "for",
+        59
+      ],
+      [
+        "Ron",
+        60
+      ],
+      [
+        ",",
+        61
+      ],
+      [
+        "who",
+        62
+      ],
+      [
+        "had",
+        63
+      ],
+      [
+        "not",
+        64
+      ],
+      [
+        "yet",
+        65
+      ],
+      [
+        "had",
+        66
+      ],
+      [
+        "dinner",
+        67
+      ],
+      [
+        "because",
+        68
+      ],
+      [
+        "of",
+        69
+      ],
+      [
+        "Q",
+        70
+      ],
+      [
+        "##uid",
+        71
+      ],
+      [
+        "##dit",
+        72
+      ],
+      [
+        "##ch",
+        73
+      ],
+      [
+        "practice",
+        74
+      ],
+      [
+        ".",
+        75
+      ]
+    ],
+    "num_entities": 11,
+    "num_relations": 0,
+    "token_validity": true
+  },
+  {
+    "id": 12946,
+    "text": "\"You see that house upon the hillside, Potter? My father lived there. My mother, a witch who lived here in this village, fell in love with him. But he abandoned her when she told him what she was.…He didn't like magic, my father…",
+    "annotation_confidence": 0.97,
+    "entities": [
+      {
+        "id": 0,
+        "text": "Potter",
+        "type": "CHARACTER",
+        "token_start": 9,
+        "token_end": 9,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "My father",
+        "type": "CHARACTER",
+        "token_start": 11,
+        "token_end": 12,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "My mother",
+        "type": "CHARACTER",
+        "token_start": 16,
+        "token_end": 17,
+        "token_validity": true
+      },
+      {
+        "id": 3,
+        "text": "witch",
+        "type": "CHARACTER",
+        "token_start": 20,
+        "token_end": 20,
+        "token_validity": true
+      },
+      {
+        "id": 4,
+        "text": "this village",
+        "type": "LOCATION",
+        "token_start": 25,
+        "token_end": 26,
+        "token_validity": true
+      }
+    ],
+    "relations": [
+      {
+        "type": "parent-of",
+        "head_id": 1,
+        "tail_id": 2
+      }
+    ],
+    "tokens": [
+      [
+        "\"",
+        0
+      ],
+      [
+        "You",
+        1
+      ],
+      [
+        "see",
+        2
+      ],
+      [
+        "that",
+        3
+      ],
+      [
+        "house",
+        4
+      ],
+      [
+        "upon",
+        5
+      ],
+      [
+        "the",
+        6
+      ],
+      [
+        "hillside",
+        7
+      ],
+      [
+        ",",
+        8
+      ],
+      [
+        "Potter",
+        9
+      ],
+      [
+        "?",
+        10
+      ],
+      [
+        "My",
+        11
+      ],
+      [
+        "father",
+        12
+      ],
+      [
+        "lived",
+        13
+      ],
+      [
+        "there",
+        14
+      ],
+      [
+        ".",
+        15
+      ],
+      [
+        "My",
+        16
+      ],
+      [
+        "mother",
+        17
+      ],
+      [
+        ",",
+        18
+      ],
+      [
+        "a",
+        19
+      ],
+      [
+        "witch",
+        20
+      ],
+      [
+        "who",
+        21
+      ],
+      [
+        "lived",
+        22
+      ],
+      [
+        "here",
+        23
+      ],
+      [
+        "in",
+        24
+      ],
+      [
+        "this",
+        25
+      ],
+      [
+        "village",
+        26
+      ],
+      [
+        ",",
+        27
+      ],
+      [
+        "fell",
+        28
+      ],
+      [
+        "in",
+        29
+      ],
+      [
+        "love",
+        30
+      ],
+      [
+        "with",
+        31
+      ],
+      [
+        "him",
+        32
+      ],
+      [
+        ".",
+        33
+      ],
+      [
+        "But",
+        34
+      ],
+      [
+        "he",
+        35
+      ],
+      [
+        "abandoned",
+        36
+      ],
+      [
+        "her",
+        37
+      ],
+      [
+        "when",
+        38
+      ],
+      [
+        "she",
+        39
+      ],
+      [
+        "told",
+        40
+      ],
+      [
+        "him",
+        41
+      ],
+      [
+        "what",
+        42
+      ],
+      [
+        "she",
+        43
+      ],
+      [
+        "was",
+        44
+      ],
+      [
+        ".",
+        45
+      ],
+      [
+        "…",
+        46
+      ],
+      [
+        "He",
+        47
+      ],
+      [
+        "didn",
+        48
+      ],
+      [
+        "'",
+        49
+      ],
+      [
+        "t",
+        50
+      ],
+      [
+        "like",
+        51
+      ],
+      [
+        "magic",
+        52
+      ],
+      [
+        ",",
+        53
+      ],
+      [
+        "my",
+        54
+      ],
+      [
+        "father",
+        55
+      ],
+      [
+        "…",
+        56
+      ]
+    ],
+    "num_entities": 5,
+    "num_relations": 1,
+    "token_validity": true
+  },
+  {
+    "id": 15280,
+    "text": "Harry set off at a run, Hermione right behind him. The yelping seemed to be coming from near the lake. They pelted towards it, and Harry, running flat out, felt the cold without realising what it must mean – The yelping stopped abruptly. As they reached the lake’s shore they saw why – Sirius had turned back into a man. He was crouched on all fours, his hands over his head.",
+    "annotation_confidence": 0.98,
+    "entities": [
+      {
+        "id": 0,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 0,
+        "token_end": 0,
+        "token_validity": true
+      },
+      {
+        "id": 1,
+        "text": "Hermione",
+        "type": "CHARACTER",
+        "token_start": 7,
+        "token_end": 9,
+        "token_validity": true
+      },
+      {
+        "id": 2,
+        "text": "lake",
+        "type": "LOCATION",
+        "token_start": 25,
+        "token_end": 25,
+        "token_validity": true
+      },
+      {
+        "id": 3,
+        "text": "Harry",
+        "type": "CHARACTER",
+        "token_start": 35,
+        "token_end": 35,
+        "token_validity": true
+      },
+      {
+        "id": 4,
+        "text": "lake",
+        "type": "LOCATION",
+        "token_start": 63,
+        "token_end": 63,
+        "token_validity": true
+      },
+      {
+        "id": 5,
+        "text": "Sirius",
+        "type": "CHARACTER",
+        "token_start": 71,
+        "token_end": 71,
+        "token_validity": true
+      }
+    ],
+    "relations": [],
+    "tokens": [
+      [
+        "Harry",
+        0
+      ],
+      [
+        "set",
+        1
+      ],
+      [
+        "off",
+        2
+      ],
+      [
+        "at",
+        3
+      ],
+      [
+        "a",
+        4
+      ],
+      [
+        "run",
+        5
+      ],
+      [
+        ",",
+        6
+      ],
+      [
+        "Her",
+        7
+      ],
+      [
+        "##mio",
+        8
+      ],
+      [
+        "##ne",
+        9
+      ],
+      [
+        "right",
+        10
+      ],
+      [
+        "behind",
+        11
+      ],
+      [
+        "him",
+        12
+      ],
+      [
+        ".",
+        13
+      ],
+      [
+        "The",
+        14
+      ],
+      [
+        "ye",
+        15
+      ],
+      [
+        "##l",
+        16
+      ],
+      [
+        "##ping",
+        17
+      ],
+      [
+        "seemed",
+        18
+      ],
+      [
+        "to",
+        19
+      ],
+      [
+        "be",
+        20
+      ],
+      [
+        "coming",
+        21
+      ],
+      [
+        "from",
+        22
+      ],
+      [
+        "near",
+        23
+      ],
+      [
+        "the",
+        24
+      ],
+      [
+        "lake",
+        25
+      ],
+      [
+        ".",
+        26
+      ],
+      [
+        "They",
+        27
+      ],
+      [
+        "p",
+        28
+      ],
+      [
+        "##el",
+        29
+      ],
+      [
+        "##ted",
+        30
+      ],
+      [
+        "towards",
+        31
+      ],
+      [
+        "it",
+        32
+      ],
+      [
+        ",",
+        33
+      ],
+      [
+        "and",
+        34
+      ],
+      [
+        "Harry",
+        35
+      ],
+      [
+        ",",
+        36
+      ],
+      [
+        "running",
+        37
+      ],
+      [
+        "flat",
+        38
+      ],
+      [
+        "out",
+        39
+      ],
+      [
+        ",",
+        40
+      ],
+      [
+        "felt",
+        41
+      ],
+      [
+        "the",
+        42
+      ],
+      [
+        "cold",
+        43
+      ],
+      [
+        "without",
+        44
+      ],
+      [
+        "real",
+        45
+      ],
+      [
+        "##ising",
+        46
+      ],
+      [
+        "what",
+        47
+      ],
+      [
+        "it",
+        48
+      ],
+      [
+        "must",
+        49
+      ],
+      [
+        "mean",
+        50
+      ],
+      [
+        "–",
+        51
+      ],
+      [
+        "The",
+        52
+      ],
+      [
+        "ye",
+        53
+      ],
+      [
+        "##l",
+        54
+      ],
+      [
+        "##ping",
+        55
+      ],
+      [
+        "stopped",
+        56
+      ],
+      [
+        "abruptly",
+        57
+      ],
+      [
+        ".",
+        58
+      ],
+      [
+        "As",
+        59
+      ],
+      [
+        "they",
+        60
+      ],
+      [
+        "reached",
+        61
+      ],
+      [
+        "the",
+        62
+      ],
+      [
+        "lake",
+        63
+      ],
+      [
+        "’",
+        64
+      ],
+      [
+        "s",
+        65
+      ],
+      [
+        "shore",
+        66
+      ],
+      [
+        "they",
+        67
+      ],
+      [
+        "saw",
+        68
+      ],
+      [
+        "why",
+        69
+      ],
+      [
+        "–",
+        70
+      ],
+      [
+        "Sirius",
+        71
+      ],
+      [
+        "had",
+        72
+      ],
+      [
+        "turned",
+        73
+      ],
+      [
+        "back",
+        74
+      ],
+      [
+        "into",
+        75
+      ],
+      [
+        "a",
+        76
+      ],
+      [
+        "man",
+        77
+      ],
+      [
+        ".",
+        78
+      ],
+      [
+        "He",
+        79
+      ],
+      [
+        "was",
+        80
+      ],
+      [
+        "crouched",
+        81
+      ],
+      [
+        "on",
+        82
+      ],
+      [
+        "all",
+        83
+      ],
+      [
+        "four",
+        84
+      ],
+      [
+        "##s",
+        85
+      ],
+      [
+        ",",
+        86
+      ],
+      [
+        "his",
+        87
+      ],
+      [
+        "hands",
+        88
+      ],
+      [
+        "over",
+        89
+      ],
+      [
+        "his",
+        90
+      ],
+      [
+        "head",
+        91
+      ],
+      [
+        ".",
+        92
+      ]
+    ],
+    "num_entities": 6,
+    "num_relations": 0,
+    "token_validity": true
+  }
+]
