@@ -121,11 +121,10 @@ Implementirani su jednostavni token checkeri koji proveravaju:
     - Tokom treniranja koriste se klasične metrike: precision, recall, F1-score, posebno za relacije.
     - Trening je jednostavan nakon što je dataset pravilno formatiran.
 
-|model | f1 test | f1 val |
-|-------------------------|
-| re   |  0.93   |  0.93  |
-|------|---------|--------|
-| ner  |  0.87   |  0.85  |
+| Model   | F1 Test | F1 Val |
+|---------|---------|--------|
+| RE      |  0.93   |  0.93  |
+| NER     |  0.87   |  0.85  |
 
 
 ## 📊 Vizualizacija
